@@ -7,6 +7,7 @@
 // import Graphics.Polygon;
 // import Graphics.DScroll;
 import Graphics.Components;
+import Swings.*;
 
 public class MainApp {
           public static void main(String[] args) {
@@ -17,6 +18,8 @@ public class MainApp {
                     // Arcs arcs = new Arcs();
                     // Polygon polygon = new Polygon();
                     // new DScroll();
-                    new Components();
+                    // new Components();
+                    // new SForm();
+                    new SComponents(); 
           }
 }

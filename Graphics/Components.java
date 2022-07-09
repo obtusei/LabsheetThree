@@ -9,10 +9,11 @@ public class Components extends Frame {
                     setSize(500, 500);
                     setVisible(true);
                     setLayout(null);
+                    setBackground(Color.DARK_GRAY);
 
                     // Button
                     Button button = new Button("Button");
-                    button.setBounds(100, 100, 100, 100);
+                    button.setBounds(120, 50, 100, 100);
                     add(button);
 
                     // Label
@@ -47,7 +48,7 @@ public class Components extends Frame {
 
                     // TextField
                     TextField textfield = new TextField();
-                    textfield.setBounds(100, 600, 100, 100);
+                    textfield.setBounds(10, 50, 100, 50);
                     add(textfield);
 
                     // Adding event to button
